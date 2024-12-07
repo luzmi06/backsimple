@@ -1,0 +1,33 @@
+@login = http://localhost:3000/user/login
+@singup = http://localhost:3000/user/users
+@getData = http://localhost:3000/user/getData
+
+
+GET{{{login}}}
+GET{http://localhost:3000/user/login}
+
+###
+POST {{login}}
+Content-Type: application/json
+
+{
+    "dni":"12345345",
+    "password":"56789"
+}
+
+###
+POST {{{{singup}}}}
+Content-Type: application/json
+
+{
+    "nombre":"juan",
+    "dni":"38098990",//estos son datos json
+    "correo":"correooo",
+    "password":"1234"
+
+
+}
+
+###
+get {{getData}}
+mani : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzNiIsImlhdCI6MTcxNjkwNDU2MSwiZXhwIjoxNzE2OTA0NjIxfQ.TF0-QftiH09njz_3UDKNMa5mdGyAoSt3jUE4fOS9Cx0
